@@ -4,7 +4,7 @@
 
 # Site
 title: '魁拔百科'
-subtitle: 'Kuiba Wiki'
+subtitle: ''
 description: '致力于撰写一本涵盖《魁拔》作品及其世界观的百科全书'
 keywords: '魁拔'
 author: '魁拔百科管理组'
@@ -18,7 +18,7 @@ permalink: :category/:title/:hash/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
