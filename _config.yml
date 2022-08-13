@@ -50,6 +50,8 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+  exclude_languages:
+    - mermaid
 prismjs:
   enable: false
   preprocess: true
@@ -98,3 +100,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
