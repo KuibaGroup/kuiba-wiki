@@ -85,10 +85,21 @@ creative_commons:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || fa fa-user
-  tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-th
-  archives: /archives/ || fa fa-archive
+  # tags: /标签/ || fa fa-tags
+  # categories: /分类/ || fa fa-th
+  # archives: /archives/ || fa fa-archive
+  sources:
+    default: /资源/ || fa fa-folder
+    animated film:
+      default: /动漫电影/ || fa fa-film
+      animated film1: /魁拔之十万火急/ || fa fa-film
+      animated film2: /魁拔之大战元泱界/ || fa fa-film
+      animated film3: /魁拔之战神崛起/ || fa fa-film
+      animated film4: /最后的魁拔/ || fa fa-film
+    live action:
+      default: /真人电影/ || fa fa-clapperboard
+      live action1: /魁拔之幽弥狂/ || fa fa-clapperboard
+  about: /关于/ || fa fa-user
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
