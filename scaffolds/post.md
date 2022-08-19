@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
+edit: true
 ---
 
 {% note success 参与贡献者 %}

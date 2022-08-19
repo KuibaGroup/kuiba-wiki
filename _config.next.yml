@@ -29,7 +29,7 @@ custom_file_path:
   # postMeta: source/_data/post-meta.njk
   # postBodyEnd: source/_data/post-body-end.njk
   # footer: source/_data/footer.njk
-  # bodyEnd: source/_data/body-end.njk
+  bodyEnd: source/_data/body-end.njk
   # variable: source/_data/variables.styl
   # mixin: source/_data/mixins.styl
   # style: source/_data/styles.styl
@@ -100,6 +100,7 @@ menu:
       default: /真人电影/ || fa fa-clapperboard
       live action1: /魁拔之幽弥狂/ || fa fa-clapperboard
   about: /关于/ || fa fa-user
+  new: /新建/ || fa fa-add
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
@@ -312,7 +313,7 @@ related_posts:
 post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
-  url: https://github.com/kuiba-wiki/kuiba-wiki/edit/main/source/ # Link for fork & edit
+  url: 编辑/? # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
