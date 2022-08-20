@@ -100,7 +100,13 @@ menu:
       default: /真人电影/ || fa fa-clapperboard
       live action1: /魁拔之幽弥狂/ || fa fa-clapperboard
   about: /关于/ || fa fa-user
-  new: /新建/ || fa fa-add
+  new:
+    default: /新建/ || fa fa-solid fa-square-plus
+    post:
+      default: /文章/ || fa fa-solid fa-newspaper
+      people: /人物/ || fa fa-solid fa-id-card
+      writer: /作品/ || fa fa-solid fa-file
+    page: /页面/ || fa fa-solid fa-pager
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat

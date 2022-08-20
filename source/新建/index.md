@@ -1,114 +1,26 @@
 ---
 title: 新建
-schema:
-- name: 模板
-  type: select
-  option:
-  - 文章
-  - 文章 > 人物
-  - 文章 > 作品
-  - 页面
-  default: 文章
-- name: 标题
-  type: text
-- name: 编辑
-  type: radio
-  option:
-  - 允许
-  - 禁止
-  default: 允许
-- name: 分类
-  type: text
-- name: 标签
-  type: text
-- name: 文章描述
-  type: textarea
-- name: 基本信息-姓名
-  type: text
-- name: 基本信息-性别
-  type: radio
-  option:
-  - 未知
-  - 男
-  - 女
-  - 无
-  default: 未知
-- name: 基本信息-种族
-  type: select
-  option:
-  - 魁拔
-  - 天神
-  - 天神 > 镜系
-  - 天神 > 朴系
-  - 天神 > 泱系
-  - 天神 > 焰系
-  - 天神 > 尘系
-  - 妖怪
-  - 未知
-  default: 未知
-- name: 文章内容
-  type: textarea
-  default: |-
-    {% note success 参与贡献者 %}
-    |贡献者|贡献内容|内容来源|
-    |-|-|-|
-    {% endnote %}
 ---
-<form id="new" action="worker" method="POST">
-  <table>
-    <tbody>
-      {% for item in schema %}
-      <tr>
-        <td>{{ item.name }}</td>
-        {% if item.type === 'text' %}
-          <td><input type="text" name="{{ item.name }}"{% if item.default %} value="{{ item.default }}"{% endif%}></td>
-        {% elif item.type === 'textarea' %}
-          <td><textarea name="{{ item.name }}" rows="20">{% if item.default %}{{ item.default }}{% endif%}</textarea></td>
-        {% elif item.type === 'radio' %}
-          <td>
-            {% for option in item.option %}
-            <label>
-              <input type="radio" name="{{ item.name }}" value="{{ option }}"{% if item.default and item.default == option %} checked="true"{% endif%}>
-              {{ option }}
-            </label>
-            {% endfor %}
-          </td>
-        {% elif item.type === 'checkbox' %}
-          <td>
-            {% for option in item.option %}
-            <label>
-              <input type="checkbox" name="{{ item.name }}" value="{{ option }}"{% if item.default and item.default.indexOf(option) != -1 %} checked="true"{% endif%}>
-              {{ option }}
-            </label>
-            {% endfor %}
-          </td>
-        {% elif item.type === 'select' %}
-          <td>
-            <select name="{{ item.name }}">
-            {% for option in item.option %}
-              <option value="{{ option }}"{% if item.default and item.default == option %} selected="true"{% endif%}>{{ option }}</option>
-            {% endfor %}
-            </select>
-          </td>
-        {% endif%}
-      </tr>
-      {% endfor %}
-      <tr>
-        <td colspan="2"><input type="submit" value="新建"></td>
-      </tr>
-    </tbody>
-  </table>
-</form>
 
-<style>
-  #new td[colspan="2"] {
-    text-align: center;
-  }
-  #new td > * {
-    border: 0;
-    outline: 0;
-    width: 100% !important;
-    background: #00000000;
-    background: transparent;
-  }
-</style>
+{% note warning %}
+**正在建设中…… 未实装**
+{% endnote %}
+
+# 向导
+
+你可以通过此功能向本站提交贡献，你可根据需求新建[文章](#文章)或[页面](#页面)。
+
+## 文章
+
+文章是指发表在站点首页区域的内容，是本站的核心内容。本站文章单个可多级分类的模式划分，如：/人物/魁拔/蛮吉/[文章标识]。因此根据分类，对于文章还存在两个子项：[人物](/新建/文章/人物/)、[作品](/新建/文章/作品/)。
+
+## 页面
+
+页面是指发表在站点非首页区域的内容，主要是用于完善站点功能或发表其它的不属于百科性质的内容。例如[新建](/新建/)页面属于完善站点功能，[资源](/资源/)、[关于](/关于/)等属于其它的不属于百科性质的内容。
+
+# 声明
+
+> ## 关于我们
+> 本站全部内容完全公开，可审核修改错误内容或贡献新的内容。魁拔百科管理组致力于撰写一本涵盖《魁拔》作品及其世界观的百科全书。任何人都可以为本站作出贡献，我们将按照参与贡献者的署名要求（无要求默认为匿名）将其署名在其所贡献的内容。本站全部内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 许可协议，参与贡献者默认遵循该协议。
+
+**本站全部内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 许可协议，参与贡献者默认遵循该协议。**
