@@ -11,9 +11,9 @@ title: 魁拔之战神崛起
 {% endtabs %}
 
 <style>
-    .video-container {
-        padding-top: 42.55% !important;
-    }
+.video-container {
+  padding-top: 42.55% !important;
+}
 </style>
 
 # 声明

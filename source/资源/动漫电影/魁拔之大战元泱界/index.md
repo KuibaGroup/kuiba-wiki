@@ -11,9 +11,9 @@ title: 魁拔之大战元泱界
 {% endtabs %}
 
 <style>
-    .video-container {
-        padding-top: 42.55% !important;
-    }
+.video-container {
+  padding-top: 42.55% !important;
+}
 </style>
 
 # 声明

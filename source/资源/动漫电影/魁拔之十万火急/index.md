@@ -14,9 +14,9 @@ title: 魁拔之十万火急
 {% endtabs %}
 
 <style>
-    .video-container {
-        padding-top: 56.25% !important;
-    }
+.video-container {
+  padding-top: 56.25% !important;
+}
 </style>
 
 # 声明

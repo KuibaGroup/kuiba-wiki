@@ -24,6 +24,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
+    "hexo-tag-double": "file:hexo-tag-double",
     "hexo-tag-mtime": "^0.0.7",
     "hexo-theme-next": "^8.12.3"
   }
