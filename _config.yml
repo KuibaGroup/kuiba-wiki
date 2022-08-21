@@ -17,22 +17,22 @@ url: https://wiki.kuiba.ml
 permalink: :category/:title/:hash/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: 标签
+archive_dir: 日志
+category_dir: 分类
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
+new_post_name: :layout/:title.md # File name of new posts
+default_layout: 文章
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
