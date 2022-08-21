@@ -1,0 +1,3 @@
+[submodule "hexo-tag-double"]
+	path = hexo-tag-double
+	url = https://github.com/kuiba-wiki/kuiba-wiki.git
