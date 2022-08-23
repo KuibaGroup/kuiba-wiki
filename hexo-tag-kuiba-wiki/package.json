@@ -1,0 +1,9 @@
+{
+  "name": "hexo-tag-kuiba-wiki",
+  "version": "1.0.0",
+  "description": "Kuiba Wiki",
+  "main": "index.js",
+  "keywords": ["kuiba-wiki"],
+  "author": "CN-traveler",
+  "license": "MIT"
+}

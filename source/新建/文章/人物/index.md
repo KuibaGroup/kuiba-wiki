@@ -124,3 +124,6 @@ template:
     background: transparent;
   }
 </style>
+
+# 历史贡献
+{% history %}
