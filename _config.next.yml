@@ -97,9 +97,9 @@ menu:
       animated film3: /魁拔之战神崛起/ || fa fa-film
       animated film4: /最后的魁拔/ || fa fa-film
     animated show:
-      default: /动漫番剧/ || fa fa-film
-      animated show1: /魁拔妖侠传/ || fa fa-film
-      animated show2: /魁拔之殊途/ || fa fa-film
+      default: /动漫番剧/ || fa fa-solid fa-tv
+      animated show1: /魁拔妖侠传/ || fa fa-solid fa-tv
+      animated show2: /魁拔之殊途/ || fa fa-solid fa-tv
     live action:
       default: /真人电影/ || fa fa-clapperboard
       live action1: /魁拔之幽弥狂/ || fa fa-clapperboard
