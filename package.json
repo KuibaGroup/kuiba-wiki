@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@next-theme/plugins": "^8.13.0",
-    "hexo": "^6.2.0",
+    "hexo": "^6.3.0",
     "hexo-douban-card": "^1.4.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
