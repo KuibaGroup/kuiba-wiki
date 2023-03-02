@@ -26,6 +26,6 @@
     "hexo-server": "^3.0.0",
     "hexo-tag-kuiba-wiki": "file:hexo-tag-kuiba-wiki",
     "hexo-tag-mtime": "^0.0.7",
-    "hexo-theme-next": "^8.13.0"
+    "hexo-theme-next": "^8.15.0"
   }
 }
